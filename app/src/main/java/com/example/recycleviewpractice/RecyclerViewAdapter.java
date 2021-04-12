@@ -18,7 +18,7 @@ class RecyclerViewAdapter extends RecyclerView.Adapter<RecyclerViewAdapter.MyVie
     List<Grocery> groceryList;
     Activity mAct;
 
-    public RecyclerViewAdapter(List<Grocery> friendsList, Activity mAct) {
+    public RecyclerViewAdapter(List<Grocery> groceryList, Activity mAct) {
         this.groceryList = groceryList;
         this.mAct = mAct;
     }
